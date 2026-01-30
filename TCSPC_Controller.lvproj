@@ -389,7 +389,6 @@
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
-			<Item Name="Global_SPCM_vars.vi" Type="VI" URL="../Source/Drivers/BH TCSPC/TCSPC subVIs/spcm_functions_lv10.llb/Global_SPCM_vars.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NETOmniDriver-NET40.dll" Type="Document" URL="../../../../../Program Files (x86)/Ocean Optics/OmniDriver/OOI_HOME/NETOmniDriver-NET40.dll"/>
 			<Item Name="NETOmniDriver-NET40.dll" Type="Document" URL="../../../../../Program Files/Ocean Optics/OmniDriver/OOI_HOME/NETOmniDriver-NET40.dll"/>
@@ -400,7 +399,6 @@
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="TCSPC_Initialize.vi" Type="VI" URL="../Source/Drivers/BH TCSPC/TCSPC subVIs/TCSPC_Initialize.vi"/>
 			<Item Name="TCSPCMeasure.vi" Type="VI" URL="../Source/Drivers/BH TCSPC/TCSPC subVIs/TCSPCMeasure.vi"/>
 			<Item Name="Thorlabs.MotionControl.Controls.dll" Type="Document" URL="../../Thorlabs Controls/Thorlabs.MotionControl.Controls.dll"/>
 			<Item Name="Thorlabs.MotionControl.FilterFlipperCLI.dll" Type="Document" URL="../../Thorlabs Controls/Thorlabs.MotionControl.FilterFlipperCLI.dll"/>
