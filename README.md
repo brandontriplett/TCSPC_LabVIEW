@@ -12,12 +12,15 @@ This software is the primary setup for the majority of the group's room-temperat
 * Coherent control of spin measurements (ODMR, etc.)
 
 ## History & Credits
-The core architecture of this codebase was originally developed by **Prof. Simeon Bogdanov** (University of Illinois Urbana-Champaign) during his tenure as a Postdoctoral Researcher in the Nanometa group.
+The core of this codebase was originally developed by **Prof. Simeon Bogdanov** (University of Illinois Urbana-Champaign) during his tenure as a Postdoctoral Researcher in the Nanometa group.
 
 Since 2023, the codebase has been **completely rebuilt and maintained by Brandon Triplett**. This modernization effort included:
 * A complete refactoring of the file structure and dependency management.
 * Integration of Git version control.
-* Restructuring of the data logging for .
+* Optimization (total rewrite) of the data acquisition logic.
+* Automation of measurements and file saving. 
+* Coherent spin control measurements (ODMR, etc.)
+* Integration of motorized mirrors, large area scanning stages, shutters, several new lasers and optimized delay lines. 
 
 ## System Requirements
 To run this software, the following must be installed on the control PC:
