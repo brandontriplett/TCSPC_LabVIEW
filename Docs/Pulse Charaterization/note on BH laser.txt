@@ -1,0 +1,6 @@
+Sync out -> nothing on oscilloscope
+TRG out -> NIM pulse (as saved in this folder) at laser rep rate on oscilloscope
+TTL out -> positive TTL (not saved) at laser rep rate on oscilloscope
+
+
+For the mai tai, it's apparent it's not a NIM pulse

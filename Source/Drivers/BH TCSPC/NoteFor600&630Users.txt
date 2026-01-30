@@ -1,0 +1,5 @@
+Note for SPC 600 and 630 users:
+
+While this LV-project and all its included SPC-wrappers have only be tested on SPC150 and SPC160 modules, it is expected to also be functional on SPC600 and SPC630 modules.
+A known difference is the SPCdata.mode setting which in the case of 600 and 630 can be either 2 or 3 for the EventStream (Fifo mode) examples, while for all other SPC modules a mode value of 1 is used.
+This difference is implemented in the \SPC_Wrappers\MemoryTransfer\ConfigFIFO.vi

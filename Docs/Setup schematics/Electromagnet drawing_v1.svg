@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="Electromagnet drawing_v1.svg"
+   inkscape:export-filename="C:\Users\sbogdan\Dropbox\Project FLIM setup\Electromagnet\Electromagnet drawing_v1.png"
+   inkscape:export-xdpi="900"
+   inkscape:export-ydpi="900">
+  <defs
+     id="defs4">
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4569"
+       effect="spiro" />
+    <linearGradient
+       id="linearGradient4557">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4559" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop4561" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4555"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4541"
+       effect="spiro" />
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path3990"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3981"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3959"
+       is_visible="true" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4557"
+       id="linearGradient4563"
+       x1="518.71841"
+       y1="501.5765"
+       x2="606.59153"
+       y2="501.5765"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-164.47212,-111.11678)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4557"
+       id="linearGradient4567"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-164.47212,309.10668)"
+       x1="518.71841"
+       y1="501.5765"
+       x2="606.59153"
+       y2="501.5765" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="346.09954"
+     inkscape:cy="511.19704"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="1002"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 354.74629,876.09056 0,-105.56093 28.95771,-25.25382 28.9577,0 28.95771,25.25382 0,105.56093 z"
+       inkscape:path-effect="#path-effect4569"
+       id="path4565"
+       d="m 354.74629,876.09056 0,-105.56093 28.95771,-25.25382 28.9577,0 28.95771,25.25382 0,105.56093 -86.87312,0"
+       style="fill:url(#linearGradient4567);fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:url(#linearGradient4563);fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 354.74629,455.8671 0,-105.56093 28.95771,-25.25382 28.9577,0 28.95771,25.25382 0,105.56093 -86.87312,0"
+       id="path4553"
+       inkscape:path-effect="#path-effect4555"
+       inkscape:original-d="m 354.74629,455.8671 0,-105.56093 28.95771,-25.25382 28.9577,0 28.95771,25.25382 0,105.56093 z"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <rect
+       style="opacity:0.93000034;color:#000000;fill:#008a16;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2985"
+       width="230.31479"
+       height="22.223356"
+       x="85.035561"
+       y="318.99142" />
+    <text
+       xml:space="preserve"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="88.066017"
+       y="335.15387"
+       id="text2987"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2989"
+         x="88.066017"
+         y="335.15387"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Segoe UI Semilight;-inkscape-font-specification:Segoe UI Semilight Light">Ti-U table</tspan></text>
+    <rect
+       style="opacity:0.93000034;color:#000000;fill:#ff0011;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2985-1"
+       width="81.822357"
+       height="5.0507631"
+       x="355.75644"
+       y="311.92038" />
+    <text
+       xml:space="preserve"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="365.30154"
+       y="309.09912"
+       id="text2987-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2989-4"
+         x="365.30154"
+         y="309.09912"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Segoe UI Semilight;-inkscape-font-specification:Segoe UI Semilight Light">sample</tspan></text>
+    <rect
+       style="opacity:0.93000034;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2985-0"
+       width="154.55333"
+       height="22.223356"
+       x="324.44171"
+       y="270.50412" />
+    <text
+       xml:space="preserve"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="370.48575"
+       y="260.45435"
+       id="text2987-7-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2989-4-4"
+         x="370.48575"
+         y="260.45435"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Segoe UI Semilight;-inkscape-font-specification:Segoe UI Semilight Light">Coil 1</tspan></text>
+    <rect
+       y="318.99142"
+       x="487.07626"
+       height="22.223356"
+       width="129.29953"
+       id="rect3876"
+       style="opacity:0.93000034;color:#000000;fill:#008a16;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="opacity:0.93000034;color:#000000;fill:#ff9500;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2985-1-4"
+       width="364.66507"
+       height="5.0507631"
+       x="84.530487"
+       y="314.44577" />
+    <text
+       xml:space="preserve"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="172.36243"
+       y="312.12958"
+       id="text2987-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2989-5"
+         x="172.36243"
+         y="312.12958"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Segoe UI Semilight;-inkscape-font-specification:Segoe UI Semilight Light">PCB board</tspan></text>
+    <rect
+       y="365.45847"
+       x="324.44171"
+       height="22.223356"
+       width="154.55333"
+       id="rect3947"
+       style="opacity:0.93000034;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3953"
+       y="411.97723"
+       x="370.20218"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Segoe UI Semilight;-inkscape-font-specification:Segoe UI Semilight Light"
+         y="411.97723"
+         x="370.20218"
+         id="tspan3955"
+         sodipodi:role="line">Coil 2</tspan></text>
+    <rect
+       y="180.60054"
+       x="474.44937"
+       height="207.08127"
+       width="10.101516"
+       id="rect3947-7"
+       style="opacity:0.93000034;color:#000000;fill:#686868;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 289.08637,163.42794 c 26.65425,3.52446 51.01751,21.20747 62.62946,45.45687 7.20065,15.03721 9.60104,31.88355 11.11168,48.48732 2.78024,30.55823 2.85028,61.3721 0,91.92388 -2.47054,26.48147 -7.47021,53.63191 -22.22336,75.76144 -14.25771,21.38638 -37.36831,36.66921 -62.62945,41.41626"
+       id="path3979"
+       inkscape:path-effect="#path-effect3981"
+       inkscape:original-d="m 289.08637,163.42794 c 0,0 50.94472,27.78139 62.62946,45.45687 11.68474,17.67548 8.45775,25.02559 11.11168,48.48732 2.65393,23.46173 4.04926,63.73363 0,91.92388 -4.04926,28.19025 -6.9755,55.10688 -22.22336,75.76144 -15.24786,20.65456 -62.62945,41.41626 -62.62945,41.41626"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzzzc" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3953-1"
+       y="435.36819"
+       x="257.69888"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Segoe UI Semilight;-inkscape-font-specification:Segoe UI Semilight Light"
+         y="435.36819"
+         x="257.69888"
+         id="tspan3955-1"
+         sodipodi:role="line">B-field</tspan></text>
+    <rect
+       y="-680.52051"
+       x="174.53963"
+       height="207.08127"
+       width="10.101516"
+       id="rect3947-7-5"
+       style="opacity:0.93000034;color:#000000;fill:#686868;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="351.00928"
+       y="379.49643"
+       id="text4466"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4468"
+         x="351.00928"
+         y="379.49643"
+         style="font-size:15px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:Segoe UI Semilight;-inkscape-font-specification:Segoe UI Semilight Light">diam = 5-10 cm</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3953-1-2"
+       y="155.65359"
+       x="96.438339"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Segoe UI;-inkscape-font-specification:Segoe UI Bold"
+         y="155.65359"
+         x="96.438339"
+         id="tspan3955-1-7"
+         sodipodi:role="line">CONFIG 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="96.438339"
+       y="560.72479"
+       id="text4491"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4493"
+         x="96.438339"
+         y="560.72479"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Segoe UI;-inkscape-font-specification:Segoe UI Bold">CONFIG 2</tspan></text>
+    <rect
+       y="741.23517"
+       x="85.035561"
+       height="22.223356"
+       width="230.31479"
+       id="rect4495"
+       style="opacity:0.93000034;color:#000000;fill:#008a16;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4497"
+       y="757.39764"
+       x="88.066017"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Segoe UI Semilight;-inkscape-font-specification:Segoe UI Semilight Light"
+         y="757.39764"
+         x="88.066017"
+         id="tspan4499"
+         sodipodi:role="line">Ti-U table</tspan></text>
+    <rect
+       y="734.16412"
+       x="355.75644"
+       height="5.0507631"
+       width="81.822357"
+       id="rect4501"
+       style="opacity:0.93000034;color:#000000;fill:#ff0011;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4503"
+       y="731.3429"
+       x="365.30154"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Segoe UI Semilight;-inkscape-font-specification:Segoe UI Semilight Light"
+         y="731.3429"
+         x="365.30154"
+         id="tspan4505"
+         sodipodi:role="line">sample</tspan></text>
+    <rect
+       y="692.74786"
+       x="324.44171"
+       height="22.223356"
+       width="154.55333"
+       id="rect4507"
+       style="opacity:0.93000034;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4509"
+       y="682.69812"
+       x="370.48575"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Segoe UI Semilight;-inkscape-font-specification:Segoe UI Semilight Light"
+         y="682.69812"
+         x="370.48575"
+         id="tspan4511"
+         sodipodi:role="line">Coil 1</tspan></text>
+    <rect
+       style="opacity:0.93000034;color:#000000;fill:#008a16;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4513"
+       width="129.29953"
+       height="22.223356"
+       x="487.07626"
+       y="741.23517" />
+    <rect
+       y="736.68951"
+       x="84.530487"
+       height="5.0507631"
+       width="364.66507"
+       id="rect4515"
+       style="opacity:0.93000034;color:#000000;fill:#ff9500;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4517"
+       y="734.37335"
+       x="172.36243"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Segoe UI Semilight;-inkscape-font-specification:Segoe UI Semilight Light"
+         y="734.37335"
+         x="172.36243"
+         id="tspan4519"
+         sodipodi:role="line">PCB board</tspan></text>
+    <rect
+       style="opacity:0.93000034;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4521"
+       width="154.55333"
+       height="22.223356"
+       x="324.44171"
+       y="787.70221" />
+    <text
+       xml:space="preserve"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="370.20218"
+       y="834.22101"
+       id="text4523"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4525"
+         x="370.20218"
+         y="834.22101"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Segoe UI Semilight;-inkscape-font-specification:Segoe UI Semilight Light">Coil 2</tspan></text>
+    <rect
+       style="opacity:0.93000034;color:#000000;fill:#686868;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4527"
+       width="10.101516"
+       height="360.62445"
+       x="665.36823"
+       y="590.72241" />
+    <path
+       sodipodi:nodetypes="czzzzc"
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 289.08637,585.6717 c 0,0 50.94472,27.78139 62.62946,45.45687 11.68474,17.67548 8.45775,25.02559 11.11168,48.48732 2.65393,23.46173 4.04926,63.73363 0,91.92388 -4.04926,28.19025 -6.9755,55.10688 -22.22336,75.76144 -15.24786,20.65456 -62.62945,41.41626 -62.62945,41.41626"
+       inkscape:path-effect="#path-effect4541"
+       id="path4529"
+       d="m 289.08637,585.6717 c 26.65425,3.52446 51.01751,21.20747 62.62946,45.45687 7.20065,15.03721 9.60104,31.88355 11.11168,48.48732 2.78024,30.55823 2.85028,61.3721 0,91.92388 -2.47054,26.48147 -7.47021,53.63191 -22.22336,75.76144 -14.25771,21.38638 -37.36831,36.66921 -62.62945,41.41626"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)" />
+    <text
+       xml:space="preserve"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="260.72934"
+       y="850.54083"
+       id="text4531"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4533"
+         x="260.72934"
+         y="850.54083"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:Segoe UI Semilight;-inkscape-font-specification:Segoe UI Semilight Light">B-field</tspan></text>
+    <rect
+       transform="matrix(0,1,-1,0,0,0)"
+       style="opacity:0.93000034;color:#000000;fill:#686868;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4535"
+       width="10.101516"
+       height="207.08127"
+       x="697.79865"
+       y="-671.42914" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4537"
+       y="801.74017"
+       x="351.00928"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-size:15px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:Segoe UI Semilight;-inkscape-font-specification:Segoe UI Semilight Light"
+         y="801.74017"
+         x="351.00928"
+         id="tspan4539"
+         sodipodi:role="line">diam = 5-10 cm</tspan></text>
+    <rect
+       y="-671.42914"
+       x="793.76312"
+       height="207.08127"
+       width="10.101516"
+       id="rect4543"
+       style="opacity:0.93000034;color:#000000;fill:#686868;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="340.90775"
+       y="707.79596"
+       id="text4545"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4547"
+         x="340.90775"
+         y="707.79596"
+         style="font-size:15px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:Segoe UI Semilight;-inkscape-font-specification:Segoe UI Semilight Light">height = 0.5-1 cm</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4549"
+       y="284.54205"
+       x="340.90775"
+       style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-size:15px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:Segoe UI Semilight;-inkscape-font-specification:Segoe UI Semilight Light"
+         y="284.54205"
+         x="340.90775"
+         id="tspan4551"
+         sodipodi:role="line">height = 0.5-1 cm</tspan></text>
+  </g>
+</svg>
