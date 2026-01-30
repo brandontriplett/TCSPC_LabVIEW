@@ -1,6 +1,3 @@
-This is our LabVIEW program for controlling the hardware and data acquisition of our primary time-correlated single-photon counting experiemntal setup in the nanometa group at Purdue University. This setup is used for the majority of our groups room-temperature quantum experiments. The labVIEW code is largely based on the work of Professor Simeon Bogdanov, who was a postdoc in our group before I joined, but I have since taken it over including a total rebuild and creating many new features. 
-
-
 # Nanometa TCSPC Control Software
 
 **Primary Control Interface for Room-Temperature Quantum Experiments** *Nanometa Group, Purdue University*
