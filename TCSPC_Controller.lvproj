@@ -395,11 +395,9 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SPCM_DLL_path.vi" Type="VI" URL="../Source/Drivers/BH TCSPC/TCSPC subVIs/spcm_functions_lv10.llb/SPCM_DLL_path.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="TCSPCMeasure.vi" Type="VI" URL="../Source/Drivers/BH TCSPC/TCSPC subVIs/TCSPCMeasure.vi"/>
 			<Item Name="Thorlabs.MotionControl.Controls.dll" Type="Document" URL="../../Thorlabs Controls/Thorlabs.MotionControl.Controls.dll"/>
 			<Item Name="Thorlabs.MotionControl.FilterFlipperCLI.dll" Type="Document" URL="../../Thorlabs Controls/Thorlabs.MotionControl.FilterFlipperCLI.dll"/>
 			<Item Name="ThorLabs.MotionControl.KCube.DCServoCLI.dll" Type="Document" URL="../../Thorlabs Controls/ThorLabs.MotionControl.KCube.DCServoCLI.dll"/>
