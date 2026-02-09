@@ -12,24 +12,24 @@ This software is the primary setup for the majority of the group's room-temperat
 * Coherent control of spin measurements (ODMR, etc.)
 
 ## History & Credits
-The core of this codebase was originally developed by **Prof. Simeon Bogdanov** (University of Illinois Urbana-Champaign) during his tenure as a Postdoctoral Researcher in the Nanometa group.
+The original LabVIEW program was developed by Prof. Simeon Bogdanov (University of Illinois Urbana-Champaign) during his tenure as a Postdoctoral Researcher in the Nanometa group, with contributions from Mikhail Shalaginov (now MIT/QuEra) and engineers from PI Instruments.
 
-**Since 2023, the system has been completely re-architected and maintained by Brandon Triplett.**
-This effort transformed the legacy codebase into a reliable, 64-bit automated platform. Major contributions include:
+Since 2023, the system has been extensively refactored, organized, and maintained by Brandon Triplett.
+This effort consolidated a fragmented codebase, improved data flow and reliability, and added substantial new automation and features. Major contributions include:
 
 ### System Architecture & Core Logic
 * **Total Codebase Rebuild:** Refactored the entire file structure and dependency management system for modularity and stability.
 * **64-bit Migration:** Ported all legacy code and drivers to 64-bit architecture to leverage modern memory addressing and processing power.
 * **Version Control:** Integrated Git/GitHub for full history tracking and branching.
-* **DAQ Optimization:** Rewrote the data acquisition logic to improve timing precision and throughput.
+* **DAQ Optimization:** Rewrote the data acquisition logic to improve timing precision and throughput (producer/consumer architecture).
 
 ### Experimental Capabilities
-* **Automation:** Implemented fully automated measurement sequences and standardized, metadata-rich file saving protocols.
+* **Automation:** Implemented fully automated measurement sequences and standardized file saving protocols for easy data processing.
 * **Coherent Control:** Added suites for coherent spin control measurements (e.g., ODMR, Rabi oscillations).
 * **Hardware Integration:** Developed drivers and control logic for a wide array of new instrumentation, including:
     * Motorized mirrors and optical shutters
     * Large-area scanning stages
-    * Multiple new laser sources and optimized delay lines
+    * Multiple new laser sources and optimized TCSPC delay lines
     * Programmable attenuators
 
 ### Infrastructure & Documentation
