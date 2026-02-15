@@ -14,8 +14,8 @@ This software is the primary setup for the majority of the group's room-temperat
 ## History & Credits
 The original LabVIEW program was developed by Prof. Simeon Bogdanov (University of Illinois Urbana-Champaign) during his tenure as a Postdoctoral Researcher in the Nanometa group, with contributions from Mikhail Shalaginov (now MIT/QuEra) and engineers from PI Instruments.
 
-Since 2023, the system has been extensively refactored, organized, and maintained by Brandon Triplett.
-This effort consolidated a fragmented codebase, improved data flow and reliability, and added substantial new automation and features. Major contributions include:
+Since 2023, the system has been extensively updated, refactored, and maintained by Brandon Triplett.
+This effort consolidated an unorganized codebase, improved data flow and reliability, and added substantial new automation and features. Major contributions include:
 
 ### System Architecture & Core Logic
 * **Total Codebase Rebuild:** Refactored the entire file structure and dependency management system for modularity and stability.
