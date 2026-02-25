@@ -386,6 +386,7 @@
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="matscript.dll" Type="Document"/>
 			<Item Name="NETOmniDriver-NET40.dll" Type="Document" URL="../../../../../Program Files (x86)/Ocean Optics/OmniDriver/OOI_HOME/NETOmniDriver-NET40.dll"/>
 			<Item Name="NETOmniDriver-NET40.dll" Type="Document" URL="../../../../../Program Files/Ocean Optics/OmniDriver/OOI_HOME/NETOmniDriver-NET40.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
