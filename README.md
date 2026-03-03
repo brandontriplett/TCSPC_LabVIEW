@@ -1,65 +1,47 @@
 # Nanometa TCSPC Control Software
 
-**Primary Control Interface for Room-Temperature Quantum Experiments** *Nanometa Group, Purdue University*
+![LabVIEW Version](https://img.shields.io/badge/LabVIEW-2023_Q3+-002D62.svg)
+![MATLAB](https://img.shields.io/badge/MATLAB-R2023b+-ED8B00.svg?style=flat&logo=mathworks&logoColor=white)
+![Architecture](https://img.shields.io/badge/Architecture-64--bit-orange.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
+📄 **[Read the Full 50-Page System Description/User Manual](./Docs/TCSPC_Manual.pdf)**
 
 ## Overview
-This LabVIEW project controls the hardware and data acquisition for the group's primary Time-Correlated Single-Photon Counting (TCSPC) experimental setup. It integrates control for laser scanning, sample positioning, and single-photon detection to automate data collection for quantum emitter characterization.
+This LabVIEW project manages the hardware and data acquisition for the group's primary **Time-Correlated Single-Photon Counting (TCSPC)** and confocal microscopy setup. The system coordinates sub-micron positioning (PI Piezo), high-speed laser scanning, timing electronics (Becker & Hickl), and single-photon detection to automate quantum emitter characterization. 
 
-This software is the primary setup for the majority of the group's room-temperature quantum experiments, including:
-* Lifetime and g2 measurements
-* Confocal scanning and mapping
-* Spectral analysis
-* Coherent control of spin measurements (ODMR, etc.)
+All data is saved in metadata-rich formats designed to interface directly with the **[TCSPC_analysis](https://github.com/brandontriplett/TCSPC_analysis)** module for automated plotting and reporting.
 
-## History & Credits
-The original LabVIEW program was developed by Prof. Simeon Bogdanov (University of Illinois Urbana-Champaign) during his tenure as a Postdoctoral Researcher in the Nanometa group, with contributions from Mikhail Shalaginov (now MIT/QuEra) and engineers from PI Instruments.
+### Core Capabilities
+* **Timing:** Lifetime ($\tau$) and $g^{(2)}$ photon correlation measurements.
+* **Mapping:** High-speed confocal scanning and spatial mapping.
+* **Spectroscopy:** Visible and near-IR spectral analysis.
+* **Spin Dynamics:** Coherent control protocols, including **ODMR**, $T_1$, $T_2$, and Rabi oscillations.
+* **All of the above, highly-automated.**
 
-Since 2023, the system has been extensively updated, refactored, and maintained by Brandon Triplett.
-This effort consolidated an unorganized codebase, improved data flow and reliability, and added substantial new automation and features. Major contributions include:
+### Short explanation of my contribution to this project — Brandon Triplett
+During the early years of my PhD, this setup was largely sitting idle. The students who had started the project had graduated, and because it lacked documentation, much of the custom code and hardware had become difficult for the group to use effectively. In 2024, while other group members began to build new setup on another table, I decided to ownership of this setup to revitalize and expand its capabilities.
 
-### System Architecture & Core Logic
-* **Total Codebase Rebuild:** Refactored the entire file structure and dependency management system for modularity and stability.
-* **64-bit Migration:** Ported all legacy code and drivers to 64-bit architecture to leverage modern memory addressing and processing power.
-* **Version Control:** Integrated Git/GitHub for full history tracking and branching.
-* **DAQ Optimization:** Rewrote the data acquisition logic to improve timing precision and throughput (producer/consumer architecture).
+I rebuilt most of the LabVIEW codebase from the ground up, upgraded legacy hardware, migrated everything from 32-bit to 64-bit (future-proofing), restructured the optical path, and most of all made it very user-friendly and highly automated. I documented a lot of this in my manual (which is linked above). My goal was maximizing data collection efficiency through automation, and now, almost every type of measurement can be taken, saved (with all necessary metadata needed for processing), and analyzed with a few mouse clicks. The setup is now the primary workhorse for the group.
 
-### Experimental Capabilities
-* **Automation:** Implemented fully automated measurement sequences and standardized file saving protocols for easy data processing.
-* **Coherent Control:** Added suites for coherent spin control measurements (e.g., ODMR, Rabi oscillations).
-* **Hardware Integration:** Developed drivers and control logic for a wide array of new instrumentation, including:
-    * Motorized mirrors and optical shutters
-    * Large-area scanning stages
-    * Multiple new laser sources and optimized TCSPC delay lines
-    * Programmable attenuators
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/21c0a00f-1d0a-440d-8261-b892cc2381be" width="500">
+  <br>
+  <p align="center">
+    <em>A student printed some of the interesting results of an overnight autoscan report and used it to re-locate and further analyze the exact same emitters the next day</em>
+  </p>
+</div>
 
-### Infrastructure & Documentation
-* **Hardware Overhaul:** Mapped and completely redid the physical wiring and cable management of the setup to match the new software architecture.
-* **Documentation:** Created comprehensive wiring diagrams and user manuals to ensure reproducibility and ease of training for new lab members.
+## Repository Structure
+* **`TCSPC_Control.lvproj`**: Main LabVIEW project environment.
+* **`Source/`**: SubVIs.
+* **`Docs/`**: Documents. Most everything needed is included in the 50-page technical manual.
 
-## System Requirements
-To run this software, the following must be installed on the control PC:
+## Requirements & Environment
+* **Software:** LabVIEW 2023 Q3 (64-bit), MATLAB, Python 3.9+.
+* **Drivers:** NI-DAQmx, NI-VISA, B&H SPC, PI GCS, Thorlabs Kinesis, Ocean Optics OmniDriver.
 
-### Software Prerequisites
-* **LabVIEW 2023 Q3** (or newer version)
-* **NI-DAQmx** (Driver for NI USB cards)
-* **NI-VISA** (General instrument communication)
+## Credits
+Built on an initial foundation by **Prof. Simeon Bogdanov** and **Dr. Mikhail Shalaginov**. 
 
-### Hardware Drivers (Critical)
-* **Thorlabs Kinesis/APT Software:** For motor controls.
-* **Becker & Hickl SPC Drivers:** For the TCSPC card.
-* **PI E-712 Piezo Stage Drivers:** For the scanning stage.
-
-> **Note:** Vendor-specific driver VIs are included in the `Source/Drivers/` directory of this repository to ensure version stability.
-
-## Project Structure
-* `TCSPC_Control.lvproj` - The entry point for the software.
-* `Source/` - Contains all source code and subVIs.
-    * `Main.vi` - Top-level user interface.
-    * `subVIs/` - Analysis logic, functional blocks, and helper VIs.
-    * `Drivers/` - Local copies of third-party instrument drivers (Thorlabs, BH, etc.).
-* `Docs/` - Hardware manuals, wiring diagrams, and SOPs.
-
-## Contact
-**Maintainer:** Brandon Triplett  
-**Email:** brandont2010@gmail.com  
-**Group:** Purdue Nanometa Group
+**Current Maintainer:** Brandon Triplett (Purdue University)
