@@ -8,9 +8,9 @@
 📄 **[Read the Full 50-Page System Description/User Manual](./Docs/TCSPC_Manual.pdf)**
 
 ## Overview
-This LabVIEW project manages the hardware and data acquisition for the group's primary **Time-Correlated Single-Photon Counting (TCSPC)** and confocal microscopy setup. The system coordinates sub-micron positioning (PI Piezo), high-speed laser scanning, timing electronics (Becker & Hickl), and single-photon detection to automate quantum emitter characterization. 
+This LabVIEW project controls the hardware and data acquisition for the group's **Time-Correlated Single-Photon Counting (TCSPC)** and confocal microscopy setup. The system uses sub-micron positioning (PI Piezo), high-speed laser scanning, timing electronics (Becker & Hickl), and single-photon detection to automate quantum emitter characterization. 
 
-All data is saved in metadata-rich formats designed to interface directly with the **[TCSPC_analysis](https://github.com/brandontriplett/TCSPC_analysis)** module for automated plotting and reporting.
+All data is saved with metadata to interface directly with the **[TCSPC_analysis](https://github.com/brandontriplett/TCSPC_analysis)** module for automated plotting and reporting.
 
 ### Core Capabilities
 * **Timing:** Lifetime ($\tau$) and $g^{(2)}$ photon correlation measurements.
@@ -20,9 +20,9 @@ All data is saved in metadata-rich formats designed to interface directly with t
 * **All of the above, highly-automated.**
 
 ### Short explanation of my contribution to this project — Brandon Triplett
-During the early years of my PhD, this setup was largely sitting idle. The students who had started the project had graduated, and because it lacked documentation, much of the custom code and hardware had become difficult for the group to use effectively. In 2024, while other group members began to build new setup on another table, I decided to ownership of this setup to revitalize and expand its capabilities.
+During the first years of my PhD, this setup was largely sitting idle. The students who had started the project had graduated, and because it lacked documentation, much of the custom code and hardware had become difficult for the group to use effectively. In 2024, while other group members began to build new setup on another table, I decided to ownership of this setup to revitalize and expand its capabilities.
 
-I rebuilt most of the LabVIEW codebase from the ground up, upgraded legacy hardware, migrated everything from 32-bit to 64-bit (future-proofing), restructured the optical path, and most of all made it very user-friendly and highly automated. I documented a lot of this in my manual (which is linked above). My goal was maximizing data collection efficiency through automation, and now, almost every type of measurement can be taken, saved (with all necessary metadata needed for processing), and analyzed with a few mouse clicks. The setup is now the primary workhorse for the group.
+I rebuilt most of the LabVIEW codebase from the ground up, upgraded hardware, migrated everything from 32-bit to 64-bit, restructured the optical path, and made it user-friendly and highly automated. I documented a lot of this in my manual (which is linked above). My goal was maximizing data collection efficiency through automation.
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/21c0a00f-1d0a-440d-8261-b892cc2381be" width="500">
